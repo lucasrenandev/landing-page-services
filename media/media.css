@@ -1,5 +1,5 @@
 
-@media (max-width: 955px) {
+@media (max-width: 1100px) {
 
     .right-side .content {
         text-align: center;
@@ -8,6 +8,10 @@
     .right-side .content .buttons {
         justify-content: center;
     }
+
+    .wrapper {
+        flex-direction: column;
+    }
     
     section {
         margin-top: 3rem;
@@ -15,11 +19,12 @@
 
 }
 
-@media (max-width: 550px) {
+@media (max-width: 630px) {
 
     nav {
         padding: 0 0.8rem;
     }
+
     .wrapper .left-side {
         display: none;
     }
@@ -33,7 +38,7 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 410px) {
 
     nav ul {
         display: none;
@@ -61,14 +66,14 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 330px) {
 
     .services div {
         width: 120px;
     }
 }
 
-@media (max-width: 250px) {
+@media (max-width: 260px) {
 
     .services div {
         width: 100px;
