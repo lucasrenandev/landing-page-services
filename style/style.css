@@ -84,7 +84,8 @@ main {
 
 .right-side .content {
     color: white;
-    max-width: 600px;
+    max-width: 650px;
+    padding: 10px;
 }
 
 .right-side .content h2 {
@@ -99,6 +100,7 @@ main {
 .right-side .content .buttons {
     margin-top: 1.5rem;
     display: flex;
+    align-items: center;
     gap: 30px;
 }
 
@@ -134,14 +136,15 @@ section .services {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 25px;
 }
 
 .services div {
-    width: 15%;
+    width: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 1.1rem;
+    padding: 10px;
 }
 
 .services div img {
