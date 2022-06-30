@@ -22,7 +22,7 @@
 @media (max-width: 630px) {
 
     nav {
-        padding: 0 0.8rem;
+        padding: 0 0 0 0.8rem;
     }
 
     .wrapper .left-side {
